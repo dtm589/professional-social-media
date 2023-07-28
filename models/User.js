@@ -27,6 +27,40 @@ User.init(
             validate: {
                 len: [8],
             }
+        },
+        location: {
+            type: DataTypes.STRING,
+            allowNull: false,
+            isAlpha: true,
+        },
+        first_name: {
+            type: DataTypes.STRING,
+            allowNull: false,
+        },
+        last_name: {
+            type: DataTypes.STRING,
+            allowNull: false,
+        },
+        title: {
+            type: DataTypes.STRING,
+        },
+        img: {
+            type: DataTypes.STRING,
+            validate: {
+                isUrl: true,
+            },
+        },
+        company: {
+            type: DataTypes.STRING,
+        },
+        experience: {
+            type: DataTypes.TEXT,
+        },
+        education: {
+            type: DataTypes.TEXT,
+        },
+        skills: {
+            type: DataTypes.TEXT,
         }
     },
     {
