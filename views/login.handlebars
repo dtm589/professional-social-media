@@ -1,0 +1,66 @@
+<section class="container text-center">
+    <div class="row align-items-center">
+        <!-- form to create an account -->
+        <label for="Form 1" class="form-label">Create an Account</label>
+        <form class="col">
+            <div class="mb-3">
+                <label for="username" class="form-label">User Name</label>
+                <input type="text" class="form-control" id="userNameSignUp" placeholder="Username">
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="passwordSignUp" placeholder="Must be at least 8 characters.">
+            </div>
+            <div class="mb-3">
+                <label for="firstName" class="form-label">First Name</label>
+                <input type="text" class="form-control" id="firstName" placeholder="First Name">
+            </div>
+            <div class="mb-3">
+                <label for="lastName" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+            </div>
+            <div class="mb-3">
+                <label for="title" class="form-label">Title</label>
+                <input type="text" class="form-control" id="title" placeholder="Title">
+            </div>
+            <div class="mb-3">
+                <label for="picture" class="form-label">Photo</label>
+                <input type="url" class="form-control" id="pic" placeholder="A photo of yourself in url form">
+            </div>
+            <div class="mb-3">
+                <label for="company" class="form-label">Current Company or Industry</label>
+                <input type="text" class="form-control" id="company" placeholder="Current Company">
+            </div>
+            <div class="mb-3">
+                <label for="experience" class="form-label">Work Experience</label>
+                <textarea class="form-control" id="experience" rows="6" placeholder="Please list your previous work experience."></textarea>"
+            </div>
+            <div class="mb-3">
+                <label for="education" class="form-label">Education</label>
+                <textarea class="form-control" id="education" rows="6" placeholder="Please list your previous education."></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="skills" class="form-label">Skills</label>
+                <textarea class="form-control" id="skills" rows="3" placeholder="Please list your skills."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" id="signup-btn">Submit</button>
+        </form>
+
+        <!--form to login-->
+        <label for="Form 2" class="form-label">Log In</label>
+        <form class="col">
+            <div class="mb-3">
+                <label for="username" class="form-label">User Name</label>
+                <input type="text" class="form-control" id="userNameLogin" placeholder="Username">
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="passwordLogin" placeholder="Password">
+            </div>
+            <button type="submit" class="btn btn-primary" id="login-btn">Submit</button>
+        </form>
+    </div>
+</section>
+
+<script src="../public/js/login.js"></script>
+<script src="../public/js/signup.js"></script>
