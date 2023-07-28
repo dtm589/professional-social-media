@@ -32,7 +32,7 @@ const signUpHandler = async (e) => {
         $('#lastName').attr("placeholder", "Please enter your last name.")
     }
 
-    if (user_name && password && firstName && lastName) {  //MIGHT NEED TO CHANGE THIS PART
+    if (user_name && password && firstName && lastName) { 
         const response = await fetch('/api/signup', {
             method: 'POST',
             body: JSON.stringify({ user_name, password, firstName, lastName, title, picture, company, experience, education, skills }),
