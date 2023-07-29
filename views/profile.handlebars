@@ -1,0 +1,40 @@
+<section id="profile-content">
+    <div id="basic-info" class="container">
+        <div class="card">
+            <!--Should contain pic, name, location, title, company -->
+            <div class="card-body">
+                <h4 class="card-title">{{singleUser.first_name + singleUser.last_name}}</h4>
+                <h6>{{singleUser.title + singleUser.company}}</h6>
+                <h7>{{singleUser.location}}</h7>
+                <img src="{{singleUser.img}}" alt="picture of a user">
+            </div>
+        </div>
+    </div>
+    <div id="experience" class="container">
+        <!-- Should contain their experience -->
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Experience</h4>
+                <p>{{singleUser.experience}}</p>
+            </div>
+        </div>
+    </div>
+    <div id="education" class="container">
+        <!-- Should contain their education -->
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Education</h4>
+                <p>{{singleUser.education}}</p>
+            </div>
+        </div>
+    </div>
+    <div id="skills" class="container">
+        <!-- Should contain their skills-->
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Skills</h4>
+                <p>{{singleUser.skills}}</p>
+            </div>
+        </div>
+    </div>
+</section>
