@@ -10,7 +10,7 @@
       "company": "GoldWorl",
       "experience": "More than 15 years of expirience in sales",
       "education": "Indiana University",
-      "skills": "Active Listening, Negotiation, Persuasion, Discussion"
+      "skills": "Active listening, negotiation, persuasion, discussion"
     },
     {
       "user_name": "pablo",
@@ -23,7 +23,7 @@
       "comapny": "Tesla",
       "experience": "Technical Recruiter focused on Power Electronics Design and Hardware Test Engineering for more that 5 years",
         "education": "The Ohio State University",
-        "skills": "Social media, Social media/digital communication, Persuasion, Proposal writing"
+        "skills": "Social media, social media/digital communication, persuasion, proposal writing"
     },
     {
       "user_name": "aria",
@@ -36,7 +36,7 @@
       "company": "Secureway",
       "experience": "More than 10 years of experience in the commercial area. Responsible for the restructuring of the customer service strategy, creating flow and necessary actions that will result in better two processes, great ability in conflict management, negotiation and personal relationship.",
       "education": "Florida Memorial University",
-      "skills": "Enterprise Resource Planning, Accounting Software, Revenue recognition, Attention to detail"
+      "skills": "Enterprise resource planning, accounting software, revenue recognition, attention to detail"
     },
     {
         "user_name": "john",
@@ -49,7 +49,7 @@
         "company": "Century of Tech",
         "experience": "Over 10 years industry experience, over 5 years managing design and development teams",
         "education": "Daytona State College",
-        "skills": "Adobe Creative Suite: Illustrator, InDesign, Photoshop, Attention to detail & aesthetics, Color sense & theory"
+        "skills": "Adobe creative suite: Illustrator, InDesign, photoshop, attention to detail & aesthetics, color sense & theory"
     },
     {
         "user_name": "peter",
@@ -62,7 +62,7 @@
         "company": "Mainly Design",
         "experience": "With 7 years of expirience in design and constraction industy, focusing on growing and evolving in my craft ",
         "education": "University of Central Florida",
-        "skills": "Targeting and marketing through visual communications, Interactive media design, Productivity & Organization"
+        "skills": "Targeting and marketing through visual communications, interactive media design, productivity & organization"
     },
     {
         "user_name": "maria",
@@ -75,7 +75,7 @@
         "company": "Tech and Co",
         "experience": "Web developer with 7 years in the industry",
         "education": "University of Central Florida",
-        "skills": "HTML/CSS, Javascript, Search Engine Optimization (SEO), Application Programming Interface (API), Testing/Debugging"
+        "skills": "HTML/CSS, Javascript, Search Engine Optimization (SEO), Application Programming Interface (API), testing/debugging"
     },
     {
         "user_name": "ashley",
@@ -88,7 +88,7 @@
         "company": "Big Talent Group",
         "experience": "I have worked for several Fortune 500 companies over the past 12+ years in Talent Acquisition & Human Resources. I have achieved 4 promotions over the last 5 years of my career, I was most recently promoted to the Vice President of Human Resources for delivering a world-class Talent Acquisition strategy ",
         "education": "St. John Fisher University",
-        "skills": "Effective communication, Emotional intelligence, Conflict management, Problem-solving, Productivity & Organization"
+        "skills": "Effective communication, emotional intelligence, conflict management, problem-solving, productivity & organization"
     },
     {
         "user_name": "kristin",
@@ -101,58 +101,58 @@
         "company": "Adventh Health",
         "experience": "Experienced and flexible Registered Nurse with strong critical thinking skills and 4 years of experience",
         "education": "University of Central Florida",
-        "skills": "CPR, Patient care and assistance, Physical endurance, Acute care"
+        "skills": "CPR, patient care and assistance, physical endurance, acute care"
     },
     {
         "user_name": "bob",
         "password": "password12345",
-        "location": "",
-        "first_name": "",
-        "last_name": "",
-        "title": "",
-        "img": "",
-        "company": "",
-        "experience": "",
-        "education": "",
-        "skills": ""
+        "location": "Orlando",
+        "first_name": "Bob",
+        "last_name": "Beylog",
+        "title": "QA Analyst",
+        "img": "https://images.unsplash.com/photo-1646561992931-10b460474bc2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDE4MnxhZXU2ckwtajZld3x8ZW58MHx8fHx8&auto=format&fit=crop&w=800&q=60",
+        "company": "Tree Tech LLC",
+        "experience": "Testing experience for more that 4 years",
+        "education": "Miami University Hamilton",
+        "skills": "Data Mapping, Agile working style, SQL, Postman API "
     },
     {
         "user_name": "alex",
         "password": "password12345",
-        "location": "",
-        "first_name": "",
-        "last_name": "",
-        "title": "",
-        "img": "",
-        "company": "",
-        "experience": "",
-        "education": "",
-        "skills": ""
+        "location": "Orlando",
+        "first_name": "Alex",
+        "last_name": "Haris",
+        "title": "Business Analyst",
+        "img": "https://images.unsplash.com/photo-1673100749940-d9a899cb3968?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDIyNXxhZXU2ckwtajZld3x8ZW58MHx8fHx8&auto=format&fit=crop&w=800&q=60",
+        "company": "Trip and Me",
+        "experience": "Business analyst with desire to grow you company to the highest achivemeny possible, 9 years of real life experience",
+        "education": "Farmer School of Business",
+        "skills": "STATA, SPSS, SAS, Big Data tools, business process modeling, technical and non-technical communication"
     },
     {
         "user_name": "brittany",
         "password": "password12345",
-        "location": "",
-        "first_name": "",
-        "last_name": "",
-        "title": "",
-        "img": "",
-        "company": "",
-        "experience": "",
-        "education": "",
-        "skills": ""
+        "location": "Orlando",
+        "first_name": "Britanny",
+        "last_name": "White",
+        "title": "Programmer Instructor",
+        "img": "https://images.unsplash.com/photo-1673101609020-4b5e203885bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDIyN3xhZXU2ckwtajZld3x8ZW58MHx8fHx8&auto=format&fit=crop&w=800&q=60",
+        "company": "UCLA",
+        "experience": "Instrustor with 5 years of experience of teaching but as well always learning",
+        "education": "Southeastern University",
+        "skills": "Research & Data analysis, technological & digital literacy, critical thinking, enthusiasm, motivation"
     },
     {
         "user_name": "andy",
         "password": "password12345",
-        "location": "",
-        "first_name": "",
-        "last_name": "",
-        "title": "",
-        "img": "",
-        "company": "",
-        "experience": "",
-        "education": "",
-        "skills": ""
+        "location": "Orlando",
+        "first_name": "Andy",
+        "last_name": "Lavish",
+        "title": "Secretary",
+        "img": "https://images.unsplash.com/photo-1687934386408-ba56a7dce844?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDIwfGFldTZyTC1qNmV3fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=800&q=60",
+        "company": "H&P",
+        "experience": "More than 5 years of experience",
+        "education": "Eckerd College",
+        "skills": "Microsoft Office pack: Word, Excel, Access, Publisher, Outlook, Powerpoint, filing and paper management, bookkeeping through Excel or TurboTax"
     }
   ]
