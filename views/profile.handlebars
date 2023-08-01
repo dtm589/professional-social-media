@@ -3,10 +3,11 @@
         <div class="card">
             <!--Should contain pic, name, location, title, company -->
             <div class="card-body">
-                <h4 class="card-title">{{singleUser.first_name + singleUser.last_name}}</h4>
-                <h6>{{singleUser.title + singleUser.company}}</h6>
-                <h7>{{singleUser.location}}</h7>
-                <img src="{{singleUser.img}}" alt="picture of a user">
+                <h4 class="card-title">{{userData.first_name}} {{userData.last_name}}</h4>
+                <h6>{{userData.title}}</h6>
+                <h6>{{userData.company}}</h6>
+                <h7>{{userData.location}}</h7>
+                <img src="{{userData.img}}" alt="picture of a user">
             </div>
         </div>
     </div>
@@ -15,7 +16,7 @@
         <div class="card">
             <div class="card-body">
                 <h4 class="card-title">Experience</h4>
-                <p>{{singleUser.experience}}</p>
+                <p>{{userData.experience}}</p>
             </div>
         </div>
     </div>
@@ -24,7 +25,7 @@
         <div class="card">
             <div class="card-body">
                 <h4 class="card-title">Education</h4>
-                <p>{{singleUser.education}}</p>
+                <p>{{userData.education}}</p>
             </div>
         </div>
     </div>
@@ -33,7 +34,7 @@
         <div class="card">
             <div class="card-body">
                 <h4 class="card-title">Skills</h4>
-                <p>{{singleUser.skills}}</p>
+                <p>{{userData.skills}}</p>
             </div>
         </div>
     </div>
