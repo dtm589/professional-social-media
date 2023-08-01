@@ -4,15 +4,15 @@ const withAuth = require('../utils/auth');
 
 router.get('/', withAuth, async (req, res) => {
   try {
-    const userData = await User.findAll({
+    /* const userData = await User.findAll({
       attributes: { exclude: ['password'] },
       order: [['id', 'user_name', 'ASC']],
     });
 
-    const users = userData.map((project) => project.get({ plain: true }));
+    const users = userData.map((project) => project.get({ plain: true })); */
 
-    res.render('     ', {
-      users,
+    res.render('hp', {
+      /* users, */
       logged_in: req.session.logged_in,
     });
   } catch (err) {
