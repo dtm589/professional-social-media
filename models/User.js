@@ -1,6 +1,7 @@
 const { Model, DataTypes } = require('sequelize');
 const bcrypt = require('bcrypt');
 const sequelize = require('../config/connection');
+const validator = require('validator');
 
 class User extends Model {
     checkPw(loginPw) {
@@ -47,7 +48,11 @@ User.init(
         img: {
             type: DataTypes.STRING,
             validate: {
-                isUrl: true,
+                customValidator(value) {
+                    if (!validator.isURL(value)) {
+                      throw new Error("Invalid URL");
+                    }
+                },
             },
         },
         company: {
