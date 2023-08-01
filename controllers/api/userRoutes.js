@@ -3,8 +3,9 @@ const { User } = require('../../models');
 
 router.post('/login', async (req, res) => {
   try {
+    console.log(req.body);
     const userData = await User.findOne({ where: { user_name: req.body.user_name } });
-
+    console.log(userData);
     if (!userData) {
       res
         .status(400)
@@ -12,7 +13,7 @@ router.post('/login', async (req, res) => {
       return;
     }
 
-    const validPassword = await userData.checkPassword(req.body.password);
+    const validPassword = await userData.checkPw(req.body.password);
 
     if (!validPassword) {
       res

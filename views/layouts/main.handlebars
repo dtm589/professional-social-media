@@ -5,6 +5,10 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans">
   <link rel="stylesheet" href="/css/jass.css">
   <link rel="stylesheet" href="/css/style.css">
+  <script
+  src="https://code.jquery.com/jquery-3.7.0.min.js"
+  integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+  crossorigin="anonymous"></script>
 </head>
 
 <!-- START NAV -->
@@ -18,10 +22,11 @@
                 <a class="navbar-item is-active px-3" href="/">
                     Home
                 </a>
-                <a class="navbar-item px-3">
+                
+                
+                {{#if logged_in}} <a class="navbar-item px-3" href="profile/{{user.id}}">
                     Profile
                 </a>
-                {{#if logged_in}}
                 <a class="navbar-item px-3" id="logout">
                     Logout
                 </a>

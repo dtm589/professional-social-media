@@ -5,7 +5,7 @@ const router = require('express').Router();
 // Controller route for the profile page
 router.get('/profile/:userId', async (req, res) => {
     const userId = parseInt(req.params.userId, 10);
-  
+
     try {
       // Use findByPk to find the user by their primary key (id)
       const user = await User.findByPk(userId);
@@ -17,7 +17,7 @@ router.get('/profile/:userId', async (req, res) => {
       }
   
       // Render the profile.handlebars template with the user data
-      res.render('profile', { User });
+      res.render('profile', { user });
     } catch (err) {
       // Handle any errors that occurred during the query or rendering
       console.error('Error fetching user data:', err);
