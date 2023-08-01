@@ -15,7 +15,7 @@ const loginHandler = async (e) => {
 
     //If username and password have been entered
     if (user_name && password) {
-        const response = await fetch('/api/login', {
+        const response = await fetch('/api/users/login', {
             method: 'POST',
             body: JSON.stringify({ user_name, password }),
             headers: { 'Content-Type': 'application/json' }
@@ -28,4 +28,7 @@ const loginHandler = async (e) => {
     }
 }
 
-$('#login-btn').click(loginHandler);
+$(document).ready(function(){
+    // do this after dom is ready
+   $('#login-btn').click(loginHandler); 
+  });
