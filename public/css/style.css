@@ -92,12 +92,13 @@
   }
   
   .col {
-        width:  50vw;
-        margin: 1vw;
-        padding: 0 4vw 4vw;
-        border: 3px;
-        border-style: solid;
-        border-image: linear-gradient(to bottom, var(--tertiary), var(--primary) 60%, var(--secondary)) 1 100%;
+    background: radial-gradient(ellipse at top, #d5cbe71e, transparent);
+    width:  50vw;
+    margin: 1vw;
+    padding: 0 4vw 4vw;
+    border: 3.5px;
+    border-style: solid;
+    border-image: linear-gradient(to top, #7f64b821, #6b7acc17, 60%, #2709491f) 1 100%;
   }
 
   /* LAYOUT */
