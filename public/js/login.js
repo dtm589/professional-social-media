@@ -28,7 +28,7 @@ const loginHandler = async (e) => {
     }
 }
 
-$(document).ready(function(){
+$(document).ready(function () {
     // do this after dom is ready
-   $('#login-btn').click(loginHandler); 
-  });
+    $('#login-btn').click(loginHandler);
+});
