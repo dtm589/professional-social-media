@@ -46,4 +46,34 @@ router.post('/logout', (req, res) => {
   }
 });
 
+// CREATE new user
+router.post('/signup', async (req, res) => {
+  try {
+    const dbUserData = await User.create({
+      user_name: req.body.user_name,
+      password: req.body.password,
+      first_name: req.body.firstName,
+      last_name: req.body.lastName,
+      location: req.body.location,
+      title: req.body.title,
+      img: req.body.picture,
+      company: req.body.company,
+      experience: req.body.experience,
+      education: req.body.education,
+      skills: req.body.skills,
+    });
+
+    req.session.save(() => {
+      req.session.user_id = dbUserData.id;
+      req.session.logged_in = true;
+      req.session.userCity = dbUserData.location;
+
+      res.status(200).json(dbUserData);
+    });
+  } catch (err) {
+    console.log(err);
+    res.status(500).json(err);
+  }
+});
+
 module.exports = router;

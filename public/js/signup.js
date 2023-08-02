@@ -38,22 +38,18 @@ const signUpHandler = async (e) => {
         $('#lastName').attr("placeholder", "Please enter your last name.")
     }
 
-    if (user_name && password && firstName && lastName && location) { 
-        const response = await fetch('/api/signup', {
+    if (user_name && password && firstName && lastName && location) {
+        const response = await fetch('/api/users/signup', {
             method: 'POST',
             body: JSON.stringify({ user_name, password, firstName, lastName, location, title, picture, company, experience, education, skills }),
             headers: { 'Content-Type': 'application/json' },
         });
 
-        const signData = await response.json();
-        if (response.status === 400 || response.status === 404) {
-            return alert(signData.message)
-        }
         if (response.ok) {
-            //replaces current page with home page
             document.location.replace('/');
+            //replaces current page with home page
         } else {
-            return alert('Username already exist in our database. Try another Username.')
+            return alert('Failed to sign up.')
         }
     }
 };
