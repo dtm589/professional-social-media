@@ -50,7 +50,7 @@ User.init(
             validate: {
                 customValidator(value) {
                     if (!validator.isURL(value)) {
-                      throw new Error("Invalid URL");
+                        throw new Error("Invalid URL");
                     }
                 },
             },

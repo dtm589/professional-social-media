@@ -1,14 +1,14 @@
-{{!-- {{#if logged_in}}
+{{#if logged_in}}
 {{#each users as |user| }}
 <div class="card profile">
     <div class="card-content">
         <div>
-            <h3><a href="/profile/{{this.id}}">{{user.first_name}} {{last_name}}</a></h3>
+            <h3><a href="/profileapi/profiles/profile/{{this.id}}">{{first_name}} {{last_name}}</a></h3>
             <div class="user-title">
                 <h4>{{title}}</h4>
             </div>
             <div class="user-img">
-                <img src="{{img}}">
+                <a href="/profileapi/profiles/profile/{{this.id}}"><img src={{this.img}}></a>
             </div>
         </div>
     </div>
@@ -17,4 +17,4 @@
 {{/each}}
 {{else}}
 <a href='/login'> Log in to view users. </a>
-{{/if}} --}}
+{{/if}}
