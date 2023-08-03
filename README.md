@@ -33,3 +33,15 @@ The main challenge we had laid down in our initial idea of using npm Geolocator 
 
 ## Link To Deployment
 The following link would take you to an actual website where you can try our ClikdOn website for yourself:
+https://clikdon-18a09432efa3.herokuapp.com/login
+
+GitHub URL: https://github.com/dtm589/professional-social-media
+
+## Pictures of the web UI
+
+![alt text](./assets/Greenshot%202023-08-03%2019.23.26.png)
+
+![alt text](./assets/Greenshot%202023-08-03%2019.24.06.png)
+
+![alt text](./assets/Greenshot%202023-08-03%2019.24.52.png)
+
