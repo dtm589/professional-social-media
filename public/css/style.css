@@ -106,6 +106,14 @@
     border-image: linear-gradient(to top, #7f64b821, #6b7acc17, 60%, #2709491f) 1 100%;
   }
 
+  .card {
+    border: none;
+  }
+
+  h3 {
+    color: var(--secondary);
+  }
+
   /* LAYOUT */
   .container {
     display: flex;
@@ -114,3 +122,7 @@
     align-items: center;
   }
   
+  .container img {
+    max-width: 100%;
+    max-height: 100%;
+  }
